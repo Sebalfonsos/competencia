@@ -1,0 +1,14 @@
+{
+  "name": "vendedores-formales",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Plataforma para formalizar y dar visibilidad a vendedores ambulantes",
+  "engines": { "node": ">=26" },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test \"test/**/*.test.js\""
+  },
+  "dependencies": {
+    "express": "5.3.0"
+  }
+}
